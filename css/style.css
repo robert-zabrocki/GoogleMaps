@@ -1,0 +1,134 @@
+/*	konfiguracja styli wspólnie dla sekcji html oraz body.	 */		
+	html, body {height: 100%;
+				margin: 0;
+				padding: 0;}
+
+/*	konfiguracja stylu dla panelu edycji telefonów.	*/				
+	#phones-container{
+		position:absolute;
+		width: 450px;
+		margin-left:70%;
+		margin-right:0px;
+		margin-top:15%;
+		z-index: 100;
+		background-color: #ffffff;
+		border: 1px solid #111111;
+		visibility: hidden;}
+
+/*	konfiguracja stylu dla panelu edycji telefonów - część edycyjna.	*/				
+	#phone-numbers{
+		float: left;
+		width: 360px;
+		text-align: left;
+		font-family: 'sans-serif';
+		font-size: 15px;
+		padding-top: 25px;
+		padding-left: 35px;
+		padding-right: 0px;
+		padding-bottom: 25px;}
+
+/*	konfiguracja stylu dla elemenów typu "text".	*/
+	input[type=checkbox]{
+		margin-bottom: 4px;}
+
+/*	konfiguracja stylu dla elementu "phone-edit".	*/
+	#phone-edit{
+		float: left;
+		width: 25px;
+		padding-top: 25px;
+		padding-bottom: 25px;}
+
+/*	konfiguracja stylu dla panelu edycji telefonów - część z przyciskami.	*/				
+	#phone-buttons{
+		clear: both;	
+		width: 99%;
+		text-align: right;}	
+
+/*	konfiguracja stylu dla elementów typu "submit".	*/	
+	input[type=submit]{
+		width: 75px;
+		height: 25px;
+		margin-bottom: 4px;
+		text-align: center;}
+
+	input.btnOK{
+		background-color: #0000ff;
+		color: white;
+		border: 2px solid #000080;}
+	input.btnOK:hover{
+		cursor:pointer;}
+
+	input.btnAnuluj{
+		background-color: #d00000;
+		color: white;
+		border: 2px solid #800000;}
+	input.btnAnuluj:hover{
+		cursor:pointer;}
+				
+/*	konfiguracja stylu dla zasobnika przycisków menu.	*/				
+	#floating-panel{
+		position:absolute;
+		width: 64px;
+		height: 262px;
+		margin-left:94%;
+		margin-right:0px;
+		margin-top:15%;
+		z-index: 100;
+		background-color: #eeeeee;
+		padding: 0px;
+		border: 2px solid #000000;
+		text-align: center;
+		font-family: 'sans-serif';
+		font-size:12px;
+		font-weight: bold;}
+
+/*	konfiguracja stylu dla przycisku "SMS".	*/
+	#phones{width:64px;
+			height:64px;
+			border-bottom:2px solid #000000;
+			color:#ffffff;
+			background-color:#595959;}
+			
+	#phones:hover{
+		cursor:pointer;
+	}
+	
+	
+	/*	konfiguracja stylu dla przycisku "SMS".	*/
+	#alarmy{width:64px;
+			height:64px;
+			border-bottom:2px solid #000000;
+			color:#ffffff;
+			background-color:#595959;}
+			
+	#alarmy:hover{
+		cursor:pointer;
+	}
+	
+
+/*	konfiguracja stylu dla przycisku "Raport".	*/
+	#raport{width:64px;
+			height:64px;
+			border-bottom:2px solid #000000;
+			color:#ffffff;
+			background-color:#595959;}
+			
+	#raport:hover{
+		cursor:pointer;
+	}
+	
+	
+/*	konfiguracja stylu dla przycisku "Info".	*/
+	#info{width:64px;
+		  height:64px;
+		  border-bottom:2px solid #000000;
+		  color:#ffffff;
+		  background-color:#595959;}
+		  
+	#info:hover{
+		cursor:pointer;
+	}
+					
+
+/*	konfiguracja stylu dla zasobnika mapy Google.	*/						
+	#map {height: 100%;}
