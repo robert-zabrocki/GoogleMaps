@@ -6,3 +6,6 @@ System powinien ściągać dane z monitorowanych obiektów za pośrednictwem int
 
 ### Koncepcja
 Do realizacji zadania wytypowany został pakiet przemysłowego oprogramowania PROMOTIC, czeskiej firmy Microsys (https://www.promotic.eu). Pakiet umożliwił wykonanie łączności z poszczególnymi obiektami monitorowanej sieci. Nie oferaował w tamtym czasie prezentacji danych na mapach Google. Z tego powodu pojawiła się konieczność napisania "wrapper'a", który zapewni potrzebną funkcjonalność. "Wrapper" stworzony został w HTML, CSS i JavaScript.
+
+
+dopisać: trochę więcej o sposobie działania wrapper'a, ajaxie, setTimeout, zastosowaniu onLoad, ...
