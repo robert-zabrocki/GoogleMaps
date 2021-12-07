@@ -7,5 +7,5 @@ System powinien ściągać dane z monitorowanych obiektów za pośrednictwem int
 ### Koncepcja
 Do realizacji zadania wytypowany został pakiet przemysłowego oprogramowania PROMOTIC, czeskiej firmy Microsys (https://www.promotic.eu). Pakiet umożliwił wykonanie łączności z poszczególnymi obiektami monitorowanej sieci. Nie oferaował w tamtym czasie prezentacji danych na mapach Google. Z tego powodu pojawiła się konieczność napisania "wrapper'a", który zapewni potrzebną funkcjonalność. "Wrapper" stworzony został w HTML, CSS i JavaScript.
 
-
-dopisać: trochę więcej o sposobie działania wrapper'a, ajaxie, setTimeout, zastosowaniu onLoad, ...
+### Sposób realizacji
+Część serwerowa systemu wykonana została w oparciu o pakiet PROMOTIC. Wszystkie zgromadzone dane udostępnione zostały dla żądań obiektu XmlHttpRequest. Część frontend'owa stworzona została w oparciu o HTML, CSS i JavaScript. Odpowiedni skrypt okresowo (2.5s) wysyła zapytania do serwera. Otrzymane dane są przetwarzane i w postaci markerów umieszczane na mapach Google. Markery stworzone zostały w oparciu o pliki graficzne SVG. Jako że SVG ma format tekstowy (XML) bardzo łatwo manipulować wyglądem (kolorem, mrugniem, tekstem, ...) markera umieszczonego na mapie.
